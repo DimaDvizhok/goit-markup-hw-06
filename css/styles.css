@@ -631,4 +631,13 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+@media only screen and (min-width: 768px) {
+  .portfolio-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 72px 24px;
+    width: calc(100% - 24px) / 2;
+  }
+}
 /* ==================/Style-main-portfolio========= */
