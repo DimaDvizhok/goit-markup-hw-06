@@ -647,3 +647,119 @@ img {
   }
 }
 /* ==================/Style-main-portfolio========= */
+
+/* ===================Style-footer================== */
+.end {
+  background-color: #2e2f42;
+  padding-bottom: 96px;
+  padding-top: 96px;
+}
+.end-logo {
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.end-logo-part {
+  color: #f4f4fd;
+}
+.end-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  margin-bottom: 72px;
+}
+.end-text-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.footer-social-ul {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 72px;
+}
+.footer-social-a {
+  display: flex;
+  background-color: rgba(77, 90, 229, 1);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-social-a:hover,
+.footer-social-a:focus {
+  background-color: rgba(49, 208, 170, 1);
+}
+.footer-social-svg {
+  fill: #f4f4fd;
+}
+
+.subscribe-p {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.subscribe-input {
+  width: 288px;
+  height: 40px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-bottom: 16px;
+}
+.subscribe-input::placeholder {
+  color: #fff;
+}
+.button-subscribe {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-subscribe-svg {
+  fill: #ffffff;
+  margin-left: 16px;
+}
+.button-subscribe:hover,
+.button-subscribe:focus {
+  background-color: #404bbf;
+}
+/* ===================/Style-footer================== */
