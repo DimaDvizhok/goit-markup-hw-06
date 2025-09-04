@@ -481,7 +481,6 @@ img {
 .team-our-list {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   gap: 72px;
 }
 .team-color-back {
@@ -537,11 +536,23 @@ img {
   .team-our-list {
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    gap: 64px 24px;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 64px;
+
     width: calc(100% - 24px) / 2;
   }
-  .team-color-back {
+}
+@media only screen and (min-width: 1158px) {
+  .team-our-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+    width: calc(100% - 72px) / 4;
   }
 }
+
 /* ====================/Style-main-team================ */
+
+/* ==================Style-main-portfolio========= */
+
+/* ==================/Style-main-portfolio========= */
