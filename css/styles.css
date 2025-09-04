@@ -121,10 +121,10 @@ img {
     opacity: 0;
     visibility: hidden;
   }
-  /* .mobil-menu.is-open {
+  .mobil-menu.is-open {
     opacity: 1;
     visibility: visible;
-  } */
+  }
   .mobile-menu-btn-clos {
     position: absolute;
     display: flex;
