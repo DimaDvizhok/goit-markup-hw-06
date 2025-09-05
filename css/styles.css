@@ -785,17 +785,13 @@ img {
 
 @media only screen and (min-width: 768px) {
   .container.footer {
+    max-width: 584px;
     display: flex;
     flex-wrap: wrap;
     gap: 72px 24px;
     width: calc(100% - 24px) / 2;
   }
-  .footer-logo-p {
-    margin-left: 108px;
-  }
-  .footer-subscribe {
-    margin-left: 108px;
-  }
+
   .end-text {
     width: 264px;
     margin-bottom: 0;
@@ -816,13 +812,20 @@ img {
   }
   .subscribe-input {
     width: 264px;
+    margin-bottom: 0;
+  }
+  .footer-logo-p {
+    margin-bottom: 0;
+  }
+  .footer-social-div {
+    margin-bottom: 0;
   }
 }
 
 @media only screen and (min-width: 1158px) {
   .container.footer {
     display: flex;
-
+    max-width: 1158px;
     flex-wrap: nowrap;
     gap: 0;
   }
